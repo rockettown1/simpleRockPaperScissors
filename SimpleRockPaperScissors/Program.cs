@@ -49,7 +49,7 @@ namespace SimpleRockPaperScissors
                 int ranNum = new Random().Next(0, 3);
                 Console.WriteLine($"{playerChoice} VS {options[ranNum]}");
 
-                
+                //calculate win based on choices
                 Logic.CalcWin(ranNum, options, playerChoice, plays);
                 
             }
